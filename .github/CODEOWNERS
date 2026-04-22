@@ -1,0 +1,6 @@
+# Require @anthropics/sdk approval on all changes. The cask formulae here
+# control which binaries Homebrew installs (download URL + checksum), so
+# changes should be reviewed by the same team that gates the upstream
+# release in anthropic-cli.
+
+* @anthropics/sdk
