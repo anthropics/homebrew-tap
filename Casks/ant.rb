@@ -5,22 +5,22 @@ cask "ant" do
   on_macos do
     on_intel do
       url "https://github.com/anthropics/anthropic-cli/releases/download/v#{version}/ant_#{version}_macos_amd64.zip"
-      sha256 "b82772df8b6b0f49ee055053cc7fb30d43a1aec28d3aec61aaf952f8f71cb49a"
+      sha256 "e47c673777a1d7321ff7d32828d683b6e9cfe1117420b2466b7b5e93f0d9b51a"
     end
     on_arm do
       url "https://github.com/anthropics/anthropic-cli/releases/download/v#{version}/ant_#{version}_macos_arm64.zip"
-      sha256 "c6ebc46d7be34441e1d60bac19bc3fe2850151f86727404ab591bccfa0e76b99"
+      sha256 "d61ad3bf900df5f4e1c263f25f098fdf7a6a106238d40e784f245d06c30a9852"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/anthropics/anthropic-cli/releases/download/v#{version}/ant_#{version}_linux_amd64.tar.gz"
-      sha256 "173959e9d2fc2df803e15c1ee9ee8c9d61d1a02b02763630faddf5fd9c8dbb44"
+      sha256 "d668e8e26c1a5ebb4178a7cf9f0ede1888de73677b551d2fa496a1a5d42d6bb6"
     end
     on_arm do
       url "https://github.com/anthropics/anthropic-cli/releases/download/v#{version}/ant_#{version}_linux_arm64.tar.gz"
-      sha256 "2234464cff215e81e3711647e370ce90801a176db1a922b15c672d391cdd84e6"
+      sha256 "9ab77e73e976f16860d4cb1954f147b355b33f76d01da5ca94604cd8100c0d98"
     end
   end
 
