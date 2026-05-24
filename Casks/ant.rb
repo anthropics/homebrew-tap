@@ -26,7 +26,7 @@ cask "ant" do
 
   name "ant"
   desc "CLI for the Claude Platform"
-  homepage "anthropic.com"
+  homepage "https://www.anthropic.com/"
 
   livecheck do
     skip "Auto-generated on release."
